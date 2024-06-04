@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section p {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project p {
+            margin-bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Portfolio</h1>
+            <nav>
+                <a href="#education" class="nav-link">Education</a> |
+                <a href="#courses" class="nav-link">Courses</a> |
+                <a href="#projects" class="nav-link">Projects</a>
+            </nav>
+        </header>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p>Bachelor Degree in Business Management</p>
+            <p>University of Creative Arts</p>
+            <p>Graduated: August 2023</p>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="section">
+            <h2>Courses</h2>
+            <p>100 days of code - Udemy</p>
+            <p>Getting Started with Natural Language Processing - Codecademy</p>
+            <p>How to Implement Search Algorithms with Python - Codecademy</p>
+            <p>IBM Data Science Course - Coursera</p>
+            <p>Mathematics for Machine Learning - Imperial College London</p>
+            <p>Introduction to Javascript - Code First Girls</p>
+            <p>Build Deep Learning Models with TensorFlow</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Fitness Tracker</h3>
+                <p>A simple fitness tracker with progress analytics and motivational quotes.</p>
+                <a href="https://github.com/ambahaverly/Fitness-Tracker" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: Flappy Cat Game Application</h3>
+                <p>A game inspired by flappy bird, following the adventures of the cat and her team.</p>
+                <a href="https://github.com/ambahaverly/Flappy-cat" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 3: Portfolio</h3>
+                <p>A concise portfolio of my relevant coding experience.</p>
+                <a href=" " class="btn">View Project</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
